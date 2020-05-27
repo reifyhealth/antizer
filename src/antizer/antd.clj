@@ -1,23 +1,13 @@
 (ns antizer.antd)
 
 (def components '[Affix
-                  Alert
+                  Alert.ErrorBoundary
                   Anchor
                   Anchor.Link
-                  AutoComplete
-                  AutoComplete.OptGroup
-                  AutoComplete.Option
                   Avatar
-                  BackTop
-                  Badge
                   Breadcrumb
                   Breadcrumb.Item
-                  Button
-                  Button.Group
-                  Calendar
-                  Card
-                  Card.Grid
-                  Card.Meta
+                  Breadcrumb.Separator
                   Carousel
                   Cascader
                   Checkbox
@@ -25,73 +15,44 @@
                   Col
                   Collapse
                   Collapse.Panel
+                  ConfigProvider
                   DatePicker
                   DatePicker.MonthPicker
                   DatePicker.RangePicker
+                  DatePicker.TimePicker
                   DatePicker.WeekPicker
-                  Divider
-                  Drawer
-                  Dropdown
-                  Dropdown.Button
-                  Form
-                  Form.Item
-                  Icon
+                  DatePicker.YearPicker
                   Input
-                  Input.Group
+                  Input.Password
                   Input.Search
                   Input.TextArea
-                  InputNumber
                   Layout
                   Layout.Content
                   Layout.Footer
                   Layout.Header
                   Layout.Sider
-                  List
-                  List.Item
-                  List.Item.Meta
-                  LocaleProvider
-                  Mention
-                  Mention.Nav
+                  Mentions
                   Menu
-                  Menu.Divider
                   Menu.Item
                   Menu.ItemGroup
                   Menu.SubMenu
-                  Modal
-                  Pagination
-                  Popconfirm
-                  Popover
                   Progress
                   Radio
-                  Radio.Button
                   Radio.Group
-                  Rate
                   Row
                   Select
-                  Select.OptGroup
-                  Select.Option
-                  Slider
                   Spin
+                  Statistic.Countdown
                   Steps
                   Steps.Step
-                  Switch
-                  Table
-                  Table.Column
-                  Table.ColumnGroup
                   Tabs
                   Tabs.TabPane
-                  Tag
-                  Tag.CheckableTag
-                  TimePicker
-                  Timeline
-                  Timeline.Item
-                  Tooltip
                   Transfer
-                  Tree
+                  Transfer.List
+                  Transfer.Search
                   TreeSelect
-                  TreeSelect.TreeNode
-                  Tree.TreeNode
-                  Upload])
+                  Upload
+                  Upload.Dragger])
 
 (def props '[locales])
 
